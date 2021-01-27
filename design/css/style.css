@@ -1,0 +1,118 @@
+/*===================CSS Reset============================*/
+@font-face{ font-family: fontC; src: url('../font/centurygothic.ttf');}
+@font-face{ font-family: fontI; src: url('../font/Impact.ttf');}
+html{ -webkit-box-sizing:border-box; box-sizing:border-box; overflow-y:scroll; overflow-x:auto;}
+*,*:before,*:after{ -webkit-box-sizing:inherit; box-sizing:inherit;}
+body,h1,h2,h3,h4,h5,h6,hr,p,blockquote,dl,dt,dd,ul,ol,li,pre,form,fieldset,legend,button,input,textarea,th,td,img{ border:medium none; margin:0; padding:0;}
+body,button,input,select,textarea{ color: #333; font: 22px arial,sans-serif;}
+h1,h2,h3,h4,h5,h6{ font-size:100%;}
+em,i{ font-style:normal;}
+ul,ol{ list-style:none;}
+table{ border-collapse:collapse; border-spacing:0;}
+input:focus,button:focus,textarea:focus,select:focus,video{ outline: none;}
+body{ background: #eee;}
+
+/*===================Link Style============================*/
+a,a:hover,a:active,a:visited,a:link,a:focus{ color: #333; outline:none; text-decoration: none;}
+
+/*===================Common Style============================*/
+.fl{ float:left;}
+.fr{ float:right;}
+.wrap{ width: 1200px; margin: 0 auto;}
+.ovh{ overflow: hidden;}
+.textH{ overflow:hidden; white-space:nowrap; text-overflow:ellipsis;}
+.bold{ font-weight: bold;}
+.fontC{ font-family: fontC,arial,sans-serif;}
+.fontI{ font-family: fontI,arial,sans-serif;}
+.color-f{ color: #fff !important;}
+.color-3{ color: #333 !important;}
+.color-y{ color: #fabe00 !important;}
+.bg-f{ background: #fff;}
+.bg-y{ background: #fabe00;}
+.row{ margin-left: 0; margin-right: 0;}
+.col-xs-1,.col-sm-1,.col-md-1,.col-lg-1,.col-xs-2,.col-sm-2,.col-md-2,.col-lg-2,.col-xs-3,.col-sm-3,.col-md-3,.col-lg-3,.col-xs-4,.col-sm-4,.col-md-4,.col-lg-4,.col-xs-5,.col-sm-5,.col-md-5,.col-lg-5,.col-xs-6,.col-sm-6,.col-md-6,.col-lg-6,.col-xs-7,.col-sm-7,.col-md-7,.col-lg-7,.col-xs-8,.col-sm-8,.col-md-8,.col-lg-8,.col-xs-9,.col-sm-9,.col-md-9,.col-lg-9,.col-xs-10,.col-sm-10,.col-md-10,.col-lg-10,.col-xs-11,.col-sm-11,.col-md-11,.col-lg-11,.col-xs-12,.col-sm-12,.col-md-12,.col-lg-12{ padding-right: 0; padding-left: 0;}
+
+/*============================ Index ============================*/
+.ixPart1{ display: flex; align-items: center; justify-content: flex-end; height: 100vh; font-size: 120px; background: url(../images/ixImg1.jpg) center no-repeat; background-size: cover; line-height: 180px; padding: 0 150px;}
+.ixPart1 span{ display: block; font-size: 250px;}
+
+.ixTit img{ width: 186px; margin-top: -94px; position: relative; z-index: 1;}
+
+.ixPart2 .txt{ padding: 100px 0 70px; line-height: 36px;}
+.ixPart2 .ixSlide{ margin-bottom: 70px;}
+.ixPart2 .ixSlide .img{ margin: 0 15px;}
+.ixPart2 .ixSlide .img img{ width: 100%;}
+
+.ixPart3{ font-size: 26px; background: url(../images/ixImg3.jpg) center no-repeat; background-size: cover; padding: 40px 0 400px;}
+.ixPart3 span{ display: block; font-size: 48px; padding: 80px 0 20px;}
+
+.ixPart4{ background: url(../images/ixImg4_5.jpg) left bottom no-repeat; background-size: 100%; padding-bottom: 260px;}
+.ixPart4 .txt{ padding: 110px 0 90px; line-height: 36px;}
+.ixPart4 .list{ margin: 0 -20px;}
+.ixPart4 .list .box{ padding: 50px 10px 100px; margin: 0 20px 40px;}
+.ixPart4 .list .box .img{ margin: 0 15% 140px;}
+.ixPart4 .list .box .img img{ width: 100%;}
+.ixPart4 .list .box p{ min-height: 80px; line-height: 40px;}
+
+.ixPart5 .list{ margin: 0 -60px 160px;}
+.ixPart5 .list .img{ margin: 60px 60px 0;}
+.ixPart5 .list .img img{ width: 100%;}
+
+.ixPart6 .map{ margin-top: -40px;}
+.ixPart6 .map img{ width: 100%;}
+
+.ixPart7{ background: #000; padding: 15px 0; margin-bottom: 130px;}
+.ixPart7 .left{ margin-right: 50px;}
+.ixPart7 .left img{ width: 100%;}
+.ixPart7 .right p{ background-position: 0 0; background-repeat: no-repeat; background-size: 28px; padding-left: 36px; margin-top: 10px; line-height: 30px;}
+.ixPart7 .right p.icon1{ background-image: url(../images/ixImg6_2.png);}
+.ixPart7 .right p.icon2{ background-image: url(../images/ixImg6_3.png);}
+.ixPart7 .right p.icon3{ background-image: url(../images/ixImg6_4.png);}
+
+/*============================ 媒体查询 ============================*/
+.mobHide{ display: block;}
+.mobShow{ display: none;}
+
+@media (max-width: 1440px) {
+	.ixPart1{ font-size: 90px; padding: 0 80px; line-height: 120px;}
+	.ixPart1 span{ font-size: 160px;}
+	.ixPart2 .ixSlide{ padding: 0 40px;}
+	.ixPart2 .ixSlide .slick-arrow.prev{ left: 0;}
+	.ixPart2 .ixSlide .slick-arrow.next{ right: 0;}
+}
+
+@media (max-width: 1200px) {
+	.wrap{ width: 100%; padding: 0 15px;}
+}
+
+@media (max-width: 999px) {
+	.ixPart1{ padding: 0 20px; font-size: 70px; line-height: 100px;}
+	.ixPart1 span{ font-size: 120px;}
+}
+
+@media (max-width:767px) {
+	body,button,input,select,textarea{ font-size: 16px;}
+	.wrap{ padding: 0;}
+	.ixPart1{ font-size: 40px; line-height: 60px;}
+	.ixPart1 span{ font-size: 80px;}
+	.ixTit img{ width: 120px; margin-top: -60px;}
+	.ixPart2{ padding: 0 15px;}
+	.ixPart2 .txt{ line-height: 26px; padding: 40px 0;}
+	.ixPart2 .ixSlide{ margin-bottom: 50px; padding: 0 30px;}
+	.ixPart2 .ixSlide .img{ margin: 0 5px;}
+	.ixPart3{ font-size: 17px; padding: 20px 15px 120px;}
+	.ixPart3 span{ font-size: 24px; padding: 30px 0 5px;}
+	.ixPart4{ background-size: auto 20%; padding: 0 15px 140px;}
+	.ixPart4 .txt{ line-height: 26px; padding: 40px 0;}
+	.ixPart4 .list{ margin: 0;}
+	.ixPart4 .list .box{ margin: 0 0 20px; padding: 30px 20px;}
+	.ixPart4 .list .box .img{ margin: 0 30% 20px;}
+	.ixPart4 .list .box p{ min-height: auto; line-height: 26px;}
+	.ixPart5 .list{ margin: 0 5px; padding: 10px 0 100px;}
+	.ixPart5 .list .img{ margin: 20px 10px 0;}
+	.ixPart6 .map{ margin-top: -15px; padding: 0 15px;}
+	.ixPart7{ padding: 20px 15px; margin-bottom: 50px;}
+	.ixPart7 .left{ margin: 0 0 20px;}
+	.ixPart7 .right p{ background-size: 24px; padding-left: 34px; line-height: 24px;}
+	
+}
