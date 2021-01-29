@@ -8,7 +8,7 @@
 	<link rel="stylesheet" href="<?=$pre?>/css/jquery.fullpage.min.css">
 	<link rel="stylesheet" type="text/css" href="<?=$pre?>/css/bootstrap.min.css"/>
 	<link rel="stylesheet" type="text/css" href="<?=$pre?>/css/swiper.min.css"/>
-	<link rel="stylesheet" type="text/css" href="<?=$pre?>/css/style.css?v1.3"/>
+	<link rel="stylesheet" type="text/css" href="<?=$pre?>/css/style.css?v1.4"/>
 	<link rel="stylesheet" type="text/css" href="<?=$pre?>/css/media-queries.css?v1"/>
 
 </head>
@@ -121,7 +121,7 @@
 		</div>
 	</div>
 
-	<!--第四屏 数字资源-->
+	<!--第四屏 wines-->
 	<div class="section">
 		<div class="banner4">
 			<div class="wrap">
@@ -131,30 +131,29 @@
 						<div class="swiper-button-prev"></div>
 						<div class="swiper-container">
 							<div class="swiper-wrapper">
+								<?php foreach(get_posts('category_name=products&posts_per_page=-1&order=asc') as $wine_post): ?>
 								<div class="swiper-slide">
-									<div class="imgDiv"><img src="<?=$pre?>/img/w-img1.jpg"/></div>
+									<div class="imgDiv" data-id="<?=$wine_post->ID?>">
+										<?=get_the_post_thumbnail($wine_post->ID, 'wine')?>
+									</div>
 								</div>
-								<div class="swiper-slide">
-									<div class="imgDiv"><img src="<?=$pre?>/img/w-img2.jpg"/></div>
-								</div>
-								<div class="swiper-slide">
-									<div class="imgDiv"><img src="<?=$pre?>/img/w-img3.jpg"/></div>
-								</div>
-								<div class="swiper-slide">
-									<div class="imgDiv"><img src="<?=$pre?>/img/w-img4.jpg"/></div>
-								</div>
-								<div class="swiper-slide">
-									<div class="imgDiv"><img src="<?=$pre?>/img/w-img1.jpg"/></div>
-								</div>
+								<?php endforeach; ?>
 							</div>
 						</div>
+					</div>
+					<div class="detail-images">
+						<?php foreach(get_posts('category_name=products&posts_per_page=-1&order=asc') as $wine_post): ?>
+						<div class="detail-image" data-id="<?=$wine_post->ID?>">
+							<img src="<?=get_field('detail_image', $wine_post->ID)?>" />
+						</div>
+						<?php endforeach; ?>
 					</div>
 				</div>
 			</div>
 		</div>
 	</div>
 
-	<!--第五屏 悦读川图-->
+	<!--第五屏 vineyards-->
 	<div class="section">
 		<div class="banner5">
 			<div class="wrap">
@@ -186,7 +185,7 @@
 		</div>
 	</div>
 
-	<!--第六屏 川图印象-->
+	<!--第六屏 contact-->
 	<div class="section">
 		<div class="banner6">
 			<div class="wrap">
@@ -227,7 +226,7 @@
 
 <script src="<?=$pre?>/js/swiper.min.js" type="text/javascript" charset="utf-8"></script>
 
-<script src="<?=$pre?>/js/script.js" type="text/javascript" charset="utf-8"></script>
+<script src="<?=$pre?>/js/script.js?v2" type="text/javascript" charset="utf-8"></script>
 
 <script type="text/javascript">
 

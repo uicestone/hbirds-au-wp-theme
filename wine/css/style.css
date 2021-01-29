@@ -3,14 +3,6 @@
 @font-face{ font-family: fontD; src: url('../fonts/DINCond-BoldAlternate.otf');}
 @font-face{ font-family: fontC; src: url('../fonts/CAMBRIAZ.TTF');}
 @font-face{ font-family: fontS; src: url('../fonts/SOURCEHANSERIFCN-EXTRALIGHT.OTF');}
-@font-face {
-    font-family: 'FZNew XiuLi-Z11T';
-    src: url('../fonts/FZXXLFW--GB1-0.woff2') format('woff2'),
-        url('../fonts/FZXXLFW--GB1-0.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-}
 
 html,body{
 	padding: 0;
@@ -232,7 +224,19 @@ button:focus{
 .banner4 .swiper-button-next, .banner4 .swiper-button-prev{width: 17px;height: 34px;background-size: 100% 100%;outline: none;}
 .banner4 .swiper-button-prev{background-image: url(../img/left.png);left: 0;}
 .banner4 .swiper-button-next{background-image: url(../img/right.png);right: 0;}
+.banner4 .detail-images {
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	top: 0;
+	z-index: 15;
+	display: none;
+}
 
+.banner4 .detail-images .detail-image {
+	display: none;
+}
 
 /**海钓视频**/
 .banner5{

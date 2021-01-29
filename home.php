@@ -16,7 +16,7 @@
 	  }
       .wrapper {
           margin: 0 auto;
-          max-width: 100%;
+          max-width: 70%;
 		  position: relative;
       }
 	  .links {
@@ -41,7 +41,7 @@
 		<a href="<?=site_url()?>/design/"></a>
 		<a href="<?=site_url()?>/wine/"></a>
 	</div>
-	<img src="<?=get_stylesheet_directory_uri()?>/imgs/home.png">
+	<img src="<?=get_stylesheet_directory_uri()?>/imgs/home-hd.png">
 </div>
 </body>
 </html>
