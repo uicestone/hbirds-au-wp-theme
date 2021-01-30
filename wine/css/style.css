@@ -253,7 +253,8 @@ button:focus{
 	transform:translateY(-40%);
 	text-align: justify;
 }
-.banner5 .row>div .imgDiv{background: #fff;height: 125px;display:flex;justify-content:center;align-items:center;}
+.banner5 .row>div .imgDiv{background: #fff;height: 10vw;display:flex;justify-content:center;align-items:center;margin: 0 1.5vw;}
+.banner5 .imgDiv a, .banner5 .imgDiv a img {height:100%; max-height:100%; object-fit: contain}
 
 
 /**合作加盟**/

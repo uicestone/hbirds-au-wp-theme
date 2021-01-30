@@ -8,8 +8,8 @@
 	<link rel="stylesheet" href="<?=$pre?>/css/jquery.fullpage.min.css">
 	<link rel="stylesheet" type="text/css" href="<?=$pre?>/css/bootstrap.min.css"/>
 	<link rel="stylesheet" type="text/css" href="<?=$pre?>/css/swiper.min.css"/>
-	<link rel="stylesheet" type="text/css" href="<?=$pre?>/css/style.css?v1.4"/>
-	<link rel="stylesheet" type="text/css" href="<?=$pre?>/css/media-queries.css?v1"/>
+	<link rel="stylesheet" type="text/css" href="<?=$pre?>/css/style.css?v1.6"/>
+	<link rel="stylesheet" type="text/css" href="<?=$pre?>/css/media-queries.css?v1.1"/>
 
 </head>
 <body class="index">
@@ -144,7 +144,7 @@
 					<div class="detail-images">
 						<?php foreach(get_posts('category_name=products&posts_per_page=-1&order=asc') as $wine_post): ?>
 						<div class="detail-image" data-id="<?=$wine_post->ID?>">
-							<img src="<?=get_field('detail_image', $wine_post->ID)?>" />
+							<img src="<?=get_field('detail_image', $wine_post->ID)['sizes']['wine-detail']?>" />
 						</div>
 						<?php endforeach; ?>
 					</div>
