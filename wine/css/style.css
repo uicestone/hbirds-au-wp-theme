@@ -287,7 +287,10 @@ button:focus{
 .banner6 .textDiv .ewmDiv{text-align: center;font-size: 12px;width:80px;margin-left:20px;}
 .banner6 .textDiv .ewmDiv span{display: block;}
 .banner6 .textDiv .shareImg {width:80px;}
-
+.banner6 .textDiv .logoImg {
+	width: 30%;
+	margin-right: 15%;
+}
 
 /*.banner1 .banner1-content{
     animation: move1 2s forwards .5s;
