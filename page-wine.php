@@ -271,4 +271,7 @@
     });
 
 </script>
+
+<link rel="stylesheet" type="text/css" href="<?=$pre?>/css/fontfaces.css"/>
+
 </html>
