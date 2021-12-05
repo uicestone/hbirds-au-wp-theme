@@ -39,9 +39,9 @@
 <div class="wrapper">
 	<div class="links">
 		<a href="<?=site_url()?>/design/"></a>
-		<a href="<?=site_url()?>/wine/"></a>
+		<a href="<?=site_url()?>/shop/"></a>
 	</div>
-	<img src="<?=get_stylesheet_directory_uri()?>/imgs/home-hd.png">
+	<img src="<?=get_stylesheet_directory_uri()?>/imgs/home-hd-2111.png">
 </div>
 </body>
 </html>

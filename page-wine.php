@@ -164,11 +164,11 @@
 								<a href="https://www.bertonvineyards.com.au/" target="_blank"><img src="<?=$pre?>/img/v-img1.jpg"/></a>
 							</div>
 						</div>
-						<div class="col-xs-3">
+						<!--<div class="col-xs-3">
 							<div class="imgDiv">
 								<a href="https://www.penfolds.com/zh-cn" target="_blank"><img src="<?=$pre?>/img/v-img2.jpg"/></a>
 							</div>
-						</div>
+						</div>-->
 						<div class="col-xs-3">
 							<div class="imgDiv">
 								<a href="https://www.tarandroses.com.au/" target="_blank"><img src="<?=$pre?>/img/v-img3.jpg"/></a>
