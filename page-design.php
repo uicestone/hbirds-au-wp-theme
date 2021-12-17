@@ -10,6 +10,7 @@
 	<link rel="stylesheet" type="text/css" href="<?=$pre?>/css/slick.css" />
 	<link rel="stylesheet" type="text/css" href="<?=$pre?>/css/bootstrap.css"/>
 	<link rel="stylesheet" type="text/css" href="<?=$pre?>/css/style.css"/>
+	<link rel="icon" type="image/png" sizes="96x96" href="<?=$pre?>/images/favicon.png">
 	<script type="text/javascript" src="<?=$pre?>/js/jquery.js"></script>
 	<script type="text/javascript" src="<?=$pre?>/js/bootstrap.min.js"></script>
 	<!--[if lt IE 9]>

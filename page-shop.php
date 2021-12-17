@@ -6,6 +6,7 @@
 	<meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no"/>
 	<title>HBird Development</title>
 	<link rel="stylesheet" type="text/css" href="<?=$pre?>/css/style.css?t=<?=time()?>" />
+	<link rel="icon" type="image/png" href="<?=$pre?>/images/favicon.ico">
 </head>
 <body>
 	<header>
@@ -30,10 +31,10 @@
 	<section id="shop">
 		<h2>SHOP</h2>
 		<ul class="categories">
-			<li><a target="_blank" href="<?=site_url()?>/wp-content/uploads/2021/12/hbird-development-products-price-list.pdf"><img src="<?=$pre?>/images/shop-1.png"></a></li>
-			<li><a target="_blank" href="<?=site_url()?>/wp-content/uploads/2021/12/hbird-development-products-price-list.pdf"><img src="<?=$pre?>/images/shop-2.png"></a></li>
-			<li><a target="_blank" href="<?=site_url()?>/wp-content/uploads/2021/12/hbird-development-products-price-list.pdf"><img src="<?=$pre?>/images/shop-3.png"></a></li>
-			<li><a target="_blank" href="<?=site_url()?>/wp-content/uploads/2021/12/hbird-development-products-price-list.pdf"><img src="<?=$pre?>/images/shop-4.png"></a></li>
+			<li><a href="<?=site_url()?>/product-category/mesh/"><img src="<?=$pre?>/images/shop-1.png"></a></li>
+			<li><a href="<?=site_url()?>/product-category/external-angles/"><img src="<?=$pre?>/images/shop-2.png"></a></li>
+			<li><a href="<?=site_url()?>/product-category/sealants-adhesives/"><img src="<?=$pre?>/images/shop-3.png"></a></li>
+			<li><a href="<?=site_url()?>/product-category/others/"><img src="<?=$pre?>/images/shop-4.png"></a></li>
 		</ul>
 	</section>
 	<section class="img-divider">
@@ -48,17 +49,16 @@
 					style="border:0"
 					loading="lazy"
 					allowfullscreen
-					src="https://www.google.com/maps/embed/v1/place?key=<?=constant('GOOGLE_MAP_API_KEY')?>
-    &q=4+Laurel+St,+Ashburton+VIC+3147AUS">
+					src="https://www.google.com/maps/embed/v1/place?key=<?=constant('GOOGLE_MAP_API_KEY')?>&q=12+Federation+Rd,+Dandenong+South,VIC,3175AUS">
 			</iframe>
 		</div>
 		<div class="contact-info">
 			<img class="logo" src="<?=$pre?>/images/logo-b.png" />
 			<ul>
-				<li><img src="<?=$pre?>/images/icon-time.png" />9:30-14:00</li>
+				<li><img src="<?=$pre?>/images/icon-time.png" />09:30-14:00</li>
 				<li><img src="<?=$pre?>/images/icon-phone.png" />+61 0490 502 449</li>
 				<li><img src="<?=$pre?>/images/icon-email.png" />banksbao@hbirds.com.au</li>
-				<li><img src="<?=$pre?>/images/icon-website.png" />https://www.hbirds.com.au</li>
+				<li><img src="<?=$pre?>/images/icon-website.png" />12 Federation Rd, <br>Dandenong South VIC 3175</li>
 			</ul>
 		</div>
 	</section>
