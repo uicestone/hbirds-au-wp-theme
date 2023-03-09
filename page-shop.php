@@ -58,7 +58,7 @@
 				<!-- <li><img src="<?=$pre?>/images/icon-time.png" />09:30-14:00</li> -->
 				<!-- <li><img src="<?=$pre?>/images/icon-phone.png" />+61 0490 502 449</li> -->
 				<li><img src="<?=$pre?>/images/icon-email.png" />banksbao@hbirds.com.au</li>
-				<li><img src="<?=$pre?>/images/icon-website.png" />12 Federation Rd, <br>Dandenong South VIC 3175</li>
+				<li><img src="<?=$pre?>/images/icon-map.png" />12 Federation Rd, <br>Dandenong South VIC 3175</li>
 			</ul>
 		</div>
 	</section>
