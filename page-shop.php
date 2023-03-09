@@ -31,10 +31,10 @@
 	<section id="shop">
 		<h2>SHOP</h2>
 		<ul class="categories">
-			<li><a href="<?=site_url()?>/product-category/mesh/"><img src="<?=$pre?>/images/shop-1.png"></a></li>
-			<li><a href="<?=site_url()?>/product-category/external-angles/"><img src="<?=$pre?>/images/shop-2.png"></a></li>
-			<li><a href="<?=site_url()?>/product-category/sealants-adhesives/"><img src="<?=$pre?>/images/shop-3.png"></a></li>
-			<li><a href="<?=site_url()?>/product-category/others/"><img src="<?=$pre?>/images/shop-4.png"></a></li>
+			<li><a href="<?=site_url()?>/product-category/mesh/"><img src="<?=$pre?>/images/shop-1-1.png"></a></li>
+			<li><a href="<?=site_url()?>/product-category/external-angles/"><img src="<?=$pre?>/images/shop-2-1.png"></a></li>
+			<li><a href="<?=site_url()?>/product-category/sealants-adhesives/"><img src="<?=$pre?>/images/shop-3-1.png"></a></li>
+			<li><a href="<?=site_url()?>/product-category/others/"><img src="<?=$pre?>/images/shop-4-1.png"></a></li>
 		</ul>
 	</section>
 	<section class="img-divider">
@@ -55,7 +55,7 @@
 		<div class="contact-info">
 			<img class="logo" src="<?=$pre?>/images/logo-b.png" />
 			<ul>
-				<li><img src="<?=$pre?>/images/icon-time.png" />09:30-14:00</li>
+				<!-- <li><img src="<?=$pre?>/images/icon-time.png" />09:30-14:00</li> -->
 				<li><img src="<?=$pre?>/images/icon-phone.png" />+61 0490 502 449</li>
 				<li><img src="<?=$pre?>/images/icon-email.png" />banksbao@hbirds.com.au</li>
 				<li><img src="<?=$pre?>/images/icon-website.png" />12 Federation Rd, <br>Dandenong South VIC 3175</li>
