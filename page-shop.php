@@ -54,7 +54,7 @@
 		</div>
 		<div class="contact-info">
 			<img class="logo" src="<?=$pre?>/images/logo-b.png" />
-			<ul>
+			<ul style="font-family: 'Century Gothic', sans-serif">
 				<!-- <li><img src="<?=$pre?>/images/icon-time.png" />09:30-14:00</li> -->
 				<!-- <li><img src="<?=$pre?>/images/icon-phone.png" />+61 0490 502 449</li> -->
 				<li><img src="<?=$pre?>/images/icon-email.png" />banksbao@hbirds.com.au</li>
