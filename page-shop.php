@@ -31,9 +31,9 @@
 	<section id="shop">
 		<h2>SHOP</h2>
 		<ul class="categories">
-			<li><a href="<?=site_url()?>/product-category/mesh/"><img src="<?=$pre?>/images/shop-1-1.png"></a></li>
+			<li><a href="<?=site_url()?>/product-category/moulding/"><img src="<?=$pre?>/images/shop-1-1.png"></a></li>
 			<li><a href="<?=site_url()?>/product-category/external-angles/"><img src="<?=$pre?>/images/shop-2-1.png"></a></li>
-			<li><a href="<?=site_url()?>/product-category/sealants-adhesives/"><img src="<?=$pre?>/images/shop-3-1.png"></a></li>
+			<li><a href="<?=site_url()?>/product-category/mesh/"><img src="<?=$pre?>/images/shop-3-1.png"></a></li>
 			<li><a href="<?=site_url()?>/product-category/others/"><img src="<?=$pre?>/images/shop-4-1.png"></a></li>
 		</ul>
 	</section>
